@@ -1,0 +1,66 @@
+---
+title       : Trading Strategy Performance
+subtitle    : Visualising key metrics of a trading strategy from percentage returns data
+author      : Peter Mere
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Slide 1: What is a Hedge Fund?
+
+At their most basic, hedge funds are groups of people who have a good idea for a trading strategy, and want to use money invested by institutions and wealthy individuals to trade it.  In return, those investors receive a share of the (hoped for) profits.
+
+
+---
+
+## Slide 2: What to Investors want to see?
+
+When seeking investiment would-be hedge fund managers need to supply a number of quantitative metrics about the performance of their strategy.
+
+Broadly, these metrics fall into two categories.
+
+
+---
+
+## Slide 3: Risk
+
+Investors want to know what they are risking should they put their money on the line.
+
+Some quantification of this risk include:
+
+- Sharpe ratio
+- Information Ratio
+- Returns distribution
+- Drawdown distribution
+
+
+---
+
+## Slide 4: Returns (and exposure)
+
+Investors also want to know what they are likely to gain by investing with a Hedge Fund.
+
+Additionally, investors want to know *how* the returns correlate with returns from their other existing investments so they can make sure they don't have too much of their money in one kind of investment.
+
+Some useful metrics in this area include:
+
+- Overall absolute return
+- Overall return relative to an appropriate benchmark
+- Correlation of returns with key markets (e.g. USD foreign exchange, gold, etc.)
+
+
+---
+
+## Slide 5: Why this app?
+
+Assembling these metrics can be labourious and repetitive.
+
+This Shiny app is intended to simplify this process.
+
+
+
