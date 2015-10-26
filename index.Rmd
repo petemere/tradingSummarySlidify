@@ -62,5 +62,9 @@ Assembling these metrics can be labourious and repetitive.
 
 This Shiny app is intended to simplify this process.
 
+And here's an R expression that gets evaluated and displayed:
+
+`r paste('We all love Slidify.')`
+
 
 
